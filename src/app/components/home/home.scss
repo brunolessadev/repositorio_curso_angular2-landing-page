@@ -54,14 +54,20 @@ main {
 
         b {
                 font-size: 72px;
-                background: -webkit-linear-gradient(180deg, $light-primary-color, $secondary-color);
-                -webkit-background-clip: text;
+                background: linear-gradient(180deg, $light-primary-color, $secondary-color);
+                background-clip: text;
                 -webkit-text-fill-color: transparent;
                 font-style: normal;
         }
     }
 
     
+}
+
+.cta-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
